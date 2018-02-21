@@ -6,7 +6,6 @@
 
 		<?php
                             //$args=array('category_name' => 'events');
-                            // The Query
                             $the_query = new WP_Query( array( 
                             'post_type' => 'event',
                             /*'meta_key' => 'event_date',
