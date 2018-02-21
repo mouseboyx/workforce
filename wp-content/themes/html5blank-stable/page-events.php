@@ -1,23 +1,17 @@
 <?php get_header(); ?>
 
-            <main role="main">
+	<main role="main">
 		<!-- section -->
 		<section>
 
-			<!-- <h1><?php // _e( 'Latest Posts', 'html5blank' ); ?></h1> -->
-
-			<?php //get_template_part('loop'); ?>
-
-			<?php // get_template_part('pagination'); ?>
-			
-			<?php
+		<?php
                             //$args=array('category_name' => 'events');
                             // The Query
                             $the_query = new WP_Query( array( 
-                            'category_name' => 'event',
-                            'meta_key' => 'event_date',
+                            'post_type' => 'event',
+                            /*'meta_key' => 'event_date',
                             'orderby' => 'meta_value',
-                            'order'   => 'DESC',
+                            'order'   => 'DESC',*/
                             ) );
 
                             // The Loop
