@@ -12,9 +12,8 @@
 			
 			<?php
                             //$args=array('category_name' => 'events');
-                            // The Query
                             $the_query = new WP_Query( array( 
-                            'category_name' => 'event',
+                            'post_type' => 'event',
                             'meta_key' => 'event_date',
                             'orderby' => 'meta_value',
                             'order'   => 'DESC',
