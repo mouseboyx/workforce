@@ -17,6 +17,8 @@
                             'meta_key' => 'event_date',
                             'orderby' => 'meta_value',
                             'order'   => 'DESC',
+                            'posts_per_page' => 3,
+                            'paged' => 1,
                             ) );
 
                             // The Loop
@@ -60,7 +62,8 @@
                                     // no posts found
                             }
                             ?>
-
+                            
+                          
 		</section>
 		<!-- /section -->
 	</main>
