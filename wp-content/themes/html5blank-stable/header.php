@@ -33,10 +33,11 @@
 
 					<!-- logo -->
 					<div class="logo">
-						<a href="<?php echo home_url(); ?>">
+						<a href="<?php echo home_url(); ?>" class="home-logo-img">
 							<!-- svg logo - toddmotto.com/mastering-svg-use-for-a-retina-web-fallbacks-with-png-script -->
-							<img src="<?php echo get_template_directory_uri(); ?>/img/logo.svg" alt="Logo" class="logo-img">
+							<img src="<?php echo get_template_directory_uri(); ?>/img/workforce-partnership-logo.png" alt="Logo" class="logo-img">
 						</a>
+						<img src="<?php echo get_template_directory_uri(); ?>/img/kansas-works-logo.png" alt="Kansas Works Logo" class="logo-img">
 					</div>
 					<!-- /logo -->
 

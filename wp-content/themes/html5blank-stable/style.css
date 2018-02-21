@@ -89,7 +89,11 @@ input:focus {
 
 }
 .logo-img {
-
+display:block;
+}
+.home-logo-img {
+display:inline-block;
+    
 }
 /* nav */
 .nav {
