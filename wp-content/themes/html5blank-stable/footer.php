@@ -17,6 +17,7 @@
 		<?php wp_footer(); ?>
 
 		<!-- analytics -->
+		<script src="<?php echo get_template_directory_uri(); ?>/js/bootstrap.min.js"></script>
 		<script>
 		(function(f,i,r,e,s,h,l){i['GoogleAnalyticsObject']=s;f[s]=f[s]||function(){
 		(f[s].q=f[s].q||[]).push(arguments)},f[s].l=1*new Date();h=i.createElement(r),
