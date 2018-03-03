@@ -34,7 +34,7 @@
 			<header class="header clear" role="banner">
 
 					<!-- logo -->
-					<div class="logo">
+					<div class="logo col-lg-6">
 						<a href="<?php echo home_url(); ?>" class="home-logo-img">
 							<!-- svg logo - toddmotto.com/mastering-svg-use-for-a-retina-web-fallbacks-with-png-script -->
 							<img src="<?php echo get_template_directory_uri(); ?>/img/workforce-partnership-logo.png" alt="Logo" class="logo-img">
@@ -42,12 +42,17 @@
 						<img src="<?php echo get_template_directory_uri(); ?>/img/kansas-works-logo.png" alt="Kansas Works Logo" class="logo-img">
 					</div>
 					<!-- /logo -->
-
+                                        
+                                            
 					<!-- nav -->
-					<nav class="nav" role="navigation">
+					<nav class="nav col-lg-4" role="navigation">
 						<?php html5blank_nav(); ?>
 					</nav>
 					<!-- /nav -->
-
+					
+					<div class="header-search col-lg-2">
+					<?php get_template_part('searchform'); ?>
+                                        </div>
+					
 			</header>
 			<!-- /header -->

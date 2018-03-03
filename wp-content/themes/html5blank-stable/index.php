@@ -28,7 +28,47 @@
                                     <?php
                                     while ( $the_query->have_posts() ) {
                                             $the_query->the_post();
-                                            ?>  <div class="index single-event">
+                                            ?>  <div class="index single-event col-lg-12">
+                                                <?php 
+
+                                                $image = get_field('event_image');
+
+                                                if( !empty($image) ): 
+
+                                                        // vars
+                                                        $url = $image['url'];
+                                                        $title = $image['title'];
+                                                        $alt = $image['alt'];
+                                                        $caption = $image['caption'];
+
+                                                        // thumbnail
+                                                        $size = 'thumbnail';
+                                                        $thumb = $image['sizes'][ $size ];
+                                                        $width = $image['sizes'][ $size . '-width' ];
+                                                        $height = $image['sizes'][ $size . '-height' ];
+
+                                                        if( $caption ): ?>
+
+                                                                <div class="wp-caption">
+
+                                                        <?php endif; ?>
+
+                                                        <a href="<?php the_permalink(); ?>" title="<?php echo $title; ?>">
+
+                                                                <img src="<?php echo $thumb; ?>" alt="<?php echo $alt; ?>" width="<?php echo $width; ?>" height="<?php echo $height; ?>" class="event-image-thumbnail"/>
+
+                                                        </a>
+
+                                                        <?php if( $caption ): ?>
+
+                                                                        <p class="wp-caption-text"><?php echo $caption; ?></p>
+
+                                                                </div>
+
+                                                        <?php endif; ?>
+
+                                                <?php endif; ?>
+                                                <div class="event-text">
                                                 <h3><a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a></h3>
                                                 <?php
                                                     the_excerpt();
@@ -41,7 +81,7 @@
                                                     $date = new DateTime($the_event_date);
                                                     echo $date->format('j M Y');
                                                     ?></h3>
-                                                <?php endif; ?></div>
+                                                <?php endif; ?></div></div>
                                                 
                                     <?php
                                     }
