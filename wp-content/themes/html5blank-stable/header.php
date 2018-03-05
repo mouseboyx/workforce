@@ -32,9 +32,9 @@
 
 			<!-- header -->
 			<header class="header clear" role="banner">
-
+                        <div class="row">
 					<!-- logo -->
-					<div class="logo col-lg-6">
+					<div class="logo col-lg-4 col-md-4 col-sm-3 col-xs-4">
 						<a href="<?php echo home_url(); ?>" class="home-logo-img">
 							<!-- svg logo - toddmotto.com/mastering-svg-use-for-a-retina-web-fallbacks-with-png-script -->
 							<img src="<?php echo get_template_directory_uri(); ?>/img/workforce-partnership-logo.png" alt="Logo" class="logo-img">
@@ -45,14 +45,14 @@
                                         
                                             
 					<!-- nav -->
-					<nav class="nav col-lg-4" role="navigation">
+					<nav class="nav col-lg-6 col-md-6 col-sm-7 col-xs-8" role="navigation">
 						<?php html5blank_nav(); ?>
 					</nav>
 					<!-- /nav -->
 					
-					<div class="header-search col-lg-2">
+					<div class="header-search col-lg-2 col-md-2 col-sm-2 col-xs-12">
 					<?php get_template_part('searchform'); ?>
                                         </div>
-					
+                        </div>
 			</header>
 			<!-- /header -->

@@ -117,8 +117,12 @@ list-style-type:none;
 
 }
 .event-image-thumbnail {
-float:left;
-margin-right:1em;
+
+    
+}
+span.event-date {
+
+
     
 }
 .single-event {
