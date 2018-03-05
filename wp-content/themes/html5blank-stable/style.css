@@ -121,7 +121,8 @@ list-style-type:none;
     
 }
 span.event-date {
-
+display:block;
+font-size:2em;
 
     
 }
