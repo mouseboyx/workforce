@@ -7,12 +7,14 @@
 		<link href="//www.google-analytics.com" rel="dns-prefetch">
         <link href="<?php echo get_template_directory_uri(); ?>/img/icons/favicon.ico" rel="shortcut icon">
         <link href="<?php echo get_template_directory_uri(); ?>/img/icons/touch.png" rel="apple-touch-icon-precomposed">
+        <link href="<?php echo get_template_directory_uri(); ?>/css/bootstrap.min.css" rel="stylesheet">
+        <link href="<?php echo get_template_directory_uri(); ?>/css/mdb.min.css" rel="stylesheet">
+        <link href="<?php echo get_template_directory_uri(); ?>/css/style.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="description" content="<?php bloginfo('description'); ?>">
-		
-		<link href="<?php echo get_template_directory_uri(); ?>/css/bootstrap.min.css" rel="stylesheet">
 
 		<?php wp_head(); ?>
 		<script>
@@ -26,33 +28,31 @@
 
 	</head>
 	<body <?php body_class(); ?>>
+		<!-- header -->
+		<header class="header-container">
+			<!-- nav -->
 
-		<!-- wrapper -->
-		<div class="wrapper">
-
-			<!-- header -->
-			<header class="header clear" role="banner">
-                        <div class="row">
-					<!-- logo -->
-					<div class="logo col-lg-4 col-md-4 col-sm-3 col-xs-4">
-						<a href="<?php echo home_url(); ?>" class="home-logo-img">
-							<!-- svg logo - toddmotto.com/mastering-svg-use-for-a-retina-web-fallbacks-with-png-script -->
-							<img src="<?php echo get_template_directory_uri(); ?>/img/workforce-partnership-logo.png" alt="Logo" class="logo-img">
-						</a>
-						<img src="<?php echo get_template_directory_uri(); ?>/img/kansas-works-logo.png" alt="Kansas Works Logo" class="logo-img">
-					</div>
-					<!-- /logo -->
-                                        
-                                            
-					<!-- nav -->
-					<nav class="nav col-lg-6 col-md-6 col-sm-7 col-xs-8" role="navigation">
-						<?php html5blank_nav(); ?>
-					</nav>
-					<!-- /nav -->
-					
-					<div class="header-search col-lg-2 col-md-2 col-sm-2 col-xs-12">
-					<?php get_template_part('searchform'); ?>
-                                        </div>
-                        </div>
-			</header>
+			<nav class="navbar navbar-expand-md navbar-light fixed-top">
+      			<a class="navbar-brand" href="<?php echo home_url(); ?>/home"><h1 id="headerLogo">Workforce Partnership</h1></a>
+      			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        			<span class="navbar-toggler-icon"></span>
+      			</button>
+	      		<div class="collapse navbar-collapse" id="navbarCollapse">
+	      			<?php
+				        wp_nav_menu( array(
+				            'theme_location'    => 'primary',
+				            'depth'             => 2,
+				            'container'         => 'div',
+				            'container_class'   => 'collapse navbar-collapse',
+				            'container_id'      => 'bs-example-navbar-collapse-1',
+				            'menu_class'        => 'nav navbar-nav',
+				            'fallback_cb'       => 'WP_Bootstrap_Navwalker::fallback',
+				            'walker'            => new WP_Bootstrap_Navwalker()
+						) );
+			        ?>
+	      		</div>
+    		</nav>
+		</header>
 			<!-- /header -->
+			<!-- wrapper -->
+		<div class="wrapper">

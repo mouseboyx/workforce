@@ -97,7 +97,8 @@ display:inline-block;
 }
 /* nav */
 .nav {
-background-color:#aaa;
+
+	margin-left: auto;
 }
 .nav ul li {
 display:inline;
