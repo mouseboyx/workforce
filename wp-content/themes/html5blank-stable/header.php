@@ -33,24 +33,27 @@
 			<!-- nav -->
 
 			<nav class="navbar navbar-expand-md navbar-light fixed-top">
-      			<a class="navbar-brand" href="<?php echo home_url(); ?>/home"><h1 id="headerLogo">Workforce Partnership</h1></a>
-      			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-        			<span class="navbar-toggler-icon"></span>
-      			</button>
-	      		<div class="collapse navbar-collapse" id="navbarCollapse">
-	      			<?php
-				        wp_nav_menu( array(
-				            'theme_location'    => 'primary',
-				            'depth'             => 2,
-				            'container'         => 'div',
-				            'container_class'   => 'collapse navbar-collapse',
-				            'container_id'      => 'bs-example-navbar-collapse-1',
-				            'menu_class'        => 'nav navbar-nav',
-				            'fallback_cb'       => 'WP_Bootstrap_Navwalker::fallback',
-				            'walker'            => new WP_Bootstrap_Navwalker()
-						) );
-			        ?>
-	      		</div>
+				<div class="container">
+	      			<a class="navbar-brand" href="<?php echo home_url(); ?>/home">
+	      				<img id="workforce-logo" src="http://workforce.test/wp-content/uploads/2018/03/workforce-partnership-logo.png" alt="Workforce Partnership"></a>
+	      			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+	        			<span class="navbar-toggler-icon"></span>
+	      			</button>
+		      		<div class="collapse navbar-collapse align-end" id="navbarCollapse">
+		      			<?php
+					        wp_nav_menu( array(
+					            'theme_location'    => 'primary',
+					            'depth'             => 2,
+					            'container'         => 'div',
+					            'container_class'   => 'collapse navbar-collapse',
+					            'container_id'      => 'bs-example-navbar-collapse-1',
+					            'menu_class'        => 'nav navbar-nav',
+					            'fallback_cb'       => 'WP_Bootstrap_Navwalker::fallback',
+					            'walker'            => new WP_Bootstrap_Navwalker()
+							) );
+				        ?>
+		      		</div>
+		      	</div>
     		</nav>
 		</header>
 			<!-- /header -->

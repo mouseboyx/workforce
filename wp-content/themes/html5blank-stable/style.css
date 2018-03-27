@@ -97,8 +97,9 @@ display:inline-block;
 }
 /* nav */
 .nav {
-
 	margin-left: auto;
+	font-size: 1.5em;
+    background-color: #fff;
 }
 .nav ul li {
 display:inline;
@@ -141,7 +142,9 @@ margin-bottom:1em;
 /*------------------------------------*\
     IMAGES
 \*------------------------------------*/
-
+#workforce-logo {
+	width: 23em;
+}
 
 
 /*------------------------------------*\

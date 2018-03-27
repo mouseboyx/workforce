@@ -15,6 +15,9 @@ ul {
 header {
 	
 }
+.align-end {
+	align-self: flex-end;
+}
 /* clear */
 .clear:before,
 .clear:after {
