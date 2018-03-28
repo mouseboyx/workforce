@@ -32,14 +32,24 @@
 		<header class="header-container">
 			<!-- nav -->
 
-			<nav class="navbar navbar-expand-md navbar-light fixed-top">
-				<div class="container">
+			<nav class="navbar navbar-expand-md navbar-light">
+				<form class="form-inline my-2 my-lg-0" id="searchbar">
+				      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+				      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+				    </form>
+				<div class="container-fluid nowrap">
 	      			<a class="navbar-brand" href="<?php echo home_url(); ?>/home">
-	      				<img id="workforce-logo" src="http://workforce.test/wp-content/uploads/2018/03/workforce-partnership-logo.png" alt="Workforce Partnership"></a>
-	      			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+	      				<div class="header-logos">
+	      					<img class="img-fluid" id="workforce-logo" src="http://workforce.test/wp-content/uploads/2018/03/workforce-logo-2.png" alt="Workforce Partnership">
+	      					<img class="img-fluid" id="kworks-logo" src="http://workforce.test/wp-content/uploads/2018/03/kansas-works-2.png" alt="Kansas Works">
+	      				</div>
+	      			</a>
+	      			<button class="navbar-toggler" id="toggle-btn" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
 	        			<span class="navbar-toggler-icon"></span>
 	      			</button>
+
 		      		<div class="collapse navbar-collapse align-end" id="navbarCollapse">
+
 		      			<?php
 					        wp_nav_menu( array(
 					            'theme_location'    => 'primary',
@@ -53,7 +63,7 @@
 							) );
 				        ?>
 		      		</div>
-		      	</div>
+		      </div>
     		</nav>
 		</header>
 			<!-- /header -->

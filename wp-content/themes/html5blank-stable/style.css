@@ -101,6 +101,10 @@ display:inline-block;
 	font-size: 1.5em;
     background-color: #fff;
 }
+.navbar {
+	width: 100%;
+	background-color: #fff;
+}
 .nav ul li {
 display:inline;
 font-size:1.3em;
@@ -109,6 +113,19 @@ margin-left:0.5em;
 .nav ul {
 list-style-type:none;
     
+}
+#toggle-btn {
+	align-self: flex-end;
+    margin-bottom: .25em;
+    font-size: 2em;
+}
+#searchbar {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+}
+.nowrap {
+	flex-wrap: nowrap!important;
 }
 /* sidebar */
 .sidebar {
@@ -143,7 +160,23 @@ margin-bottom:1em;
     IMAGES
 \*------------------------------------*/
 #workforce-logo {
-	width: 23em;
+	max-width: 20em;
+	width: 100%;
+	height: auto;
+}
+#kworks-logo {
+	max-width: 20em;
+	width: 100%;
+	height: auto;
+	align-self: center;
+	margin: .5em auto;
+}
+.header-logos {
+	display: flex;
+	-webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: column;
+    flex-direction: column;
 }
 
 
@@ -172,7 +205,10 @@ margin-bottom:1em;
 @media only screen and (min-width:480px) {
 
 }
-@media only screen and (min-width:768px) {
+@media only screen and (max-width:767px) {
+	#searchbar {
+		display: none;
+	}
 
 }
 @media only screen and (min-width:1024px) {

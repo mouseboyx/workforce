@@ -31,7 +31,6 @@ header {
 .header-container {
 	display: flex;
 	align-items: center;
-	padding: 10px 20px 0 20px;
 }
 
 .header-container > .title1 {
@@ -115,6 +114,6 @@ nav:hover {
 	}
 
 /* Page */
-.page-margin {
+/*.page-margin {
   	margin-top: 16rem;
-}
+}*/
