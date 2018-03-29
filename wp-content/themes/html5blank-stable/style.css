@@ -104,6 +104,7 @@ display:inline-block;
 .navbar {
 	width: 100%;
 	background-color: #fff;
+	border-bottom: 1px solid black;
 }
 .nav ul li {
 display:inline;
@@ -123,6 +124,12 @@ list-style-type:none;
 	position: absolute;
 	top: 20px;
 	right: 20px;
+}
+#searchbar2 {
+	display: none;
+}
+.form-control {
+	font-size: 1.5rem;
 }
 .nowrap {
 	flex-wrap: nowrap!important;
@@ -208,6 +215,18 @@ margin-bottom:1em;
 @media only screen and (max-width:767px) {
 	#searchbar {
 		display: none;
+	}
+	#searchbar2 {
+		display: flex;
+	}
+	#workforce-logo {
+		max-width: 16em;
+	}
+	#kworks-logo {
+		max-width: 16em
+	}
+	.nav {
+		background-color: #eaeaea;
 	}
 
 }
