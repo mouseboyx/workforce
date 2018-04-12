@@ -1,0 +1,47 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:600);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300);
+.so-widget-sow-headline-default-56abfd20414e .sow-headline-container h1.sow-headline {
+  font-family: Open Sans;
+  font-weight: 600;
+  text-align: center;
+  color: #ffffff;
+  line-height: 1.4em;
+  font-size: 5em;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.so-widget-sow-headline-default-56abfd20414e .sow-headline-container h1.sow-headline a {
+  color: #ffffff;
+}
+.so-widget-sow-headline-default-56abfd20414e .sow-headline-container h3.sow-sub-headline {
+  font-family: Open Sans;
+  font-weight: 300;
+  text-align: center;
+  color: #ffffff;
+  line-height: 1.4em;
+  font-size: 1.5em;
+  
+  
+}
+.so-widget-sow-headline-default-56abfd20414e .sow-headline-container h3.sow-sub-headline a {
+  color: #ffffff;
+}
+.so-widget-sow-headline-default-56abfd20414e .sow-headline-container .decoration {
+  line-height: 0em;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.so-widget-sow-headline-default-56abfd20414e .sow-headline-container .decoration .decoration-inside {
+  height: 1px;
+  display: inline-block;
+  border-top: 2px none #292929;
+  width: 100%;
+  max-width: 10%;
+}
+.so-widget-sow-headline-default-56abfd20414e .sow-headline-container *:first-child {
+  margin-top: 0 !important;
+}
+.so-widget-sow-headline-default-56abfd20414e .sow-headline-container *:last-child {
+  margin-bottom: 0 !important;
+}

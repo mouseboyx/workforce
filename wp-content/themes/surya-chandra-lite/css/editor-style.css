@@ -1,0 +1,355 @@
+/*--------------------------------------------------------------
+1. Normalize
+--------------------------------------------------------------*/
+a {
+    background-color: transparent;
+}
+
+a:active,
+a:hover {
+    outline: 0;
+}
+
+b,
+strong {
+    font-weight: bold;
+}
+
+dfn {
+    font-style: italic;
+}
+
+mark {
+    background: #ff0;
+    color: #000;
+}
+
+small {
+    font-size: 80%;
+}
+
+sub,
+sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+
+sup {
+    top: -0.5em;
+}
+
+sub {
+    bottom: -0.25em;
+}
+
+img {
+    border: 0;
+}
+
+pre {
+    overflow: auto;
+}
+
+code,
+kbd,
+pre,
+samp {
+    font-family: monospace, monospace;
+}
+fieldset {
+    border: 1px solid #c0c0c0;
+    margin: 0 2px;
+    padding: 0.35em 0.625em 0.75em;
+}
+q {
+    font-style: italic;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+legend {
+    border: 0;
+    padding: 0;
+}
+
+textarea {
+    overflow: auto;
+}
+
+optgroup {
+    font-weight: bold;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+td, th,
+td, th, .mce-item-table, .mce-item-table td, .mce-item-table th, .mce-item-table caption {
+    padding: 5px;
+    border: 2px double #f9f9f9;
+    text-align: center;
+}
+
+
+/*--------------------------------------------------------------
+2. Typography
+--------------------------------------------------------------*/
+
+body {
+    color: #888;
+    font-size: 16px;
+    line-height: 1.75;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size:40px;
+}
+
+h2 {
+    font-size:32px;
+}
+
+h3 {
+    font-size:24px;
+}
+
+h4 {
+    font-size: 22px;
+}
+
+h5 {
+    font-size: 20px;
+}
+
+h6 {
+    font-size: 18px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 10px 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: #000;
+    line-height: 1.5;
+}
+
+p {
+   margin: 0 0 15px 0;
+}
+
+dfn,
+cite,
+em,
+i {
+    font-style: italic;
+}
+
+blockquote {
+    text-align: center;
+    position: relative;
+    margin: 0 0 25px;
+    font-size: 27px;
+    font-weight: 100;
+}
+
+blockquote cite {
+    font-size: 18px;
+    line-height: 1.89;
+    color: #888888;
+}
+
+blockquote cite {
+    display: block;
+    margin-top: 7px;
+}
+
+address {
+    margin: 0 0 15px;
+}
+
+pre {
+    background: #eee;
+    font-family: "Courier 10 Pitch", Courier, monospace;
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    max-width: 100%;
+    overflow: auto;
+    padding: 15px;
+}
+
+code,
+kbd,
+tt,
+var {
+    font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+    font-size: 15px;
+}
+
+abbr,
+acronym {
+    border-bottom: 1px dotted #666;
+    cursor: help;
+}
+
+mark,
+ins {
+    background: #fff9c0;
+    text-decoration: none;
+}
+
+big {
+    font-size: 125%;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: "";
+}
+
+
+blockquote:before {
+    content: "\201c";
+    font-family: "Times New Roman";
+    display: block;
+    font-size: 93px;
+    line-height: 50px;
+    font-weight: 700;
+}
+
+blockquote:before {
+    color: #3a85eb;
+}
+
+hr {
+    background-color: #ECECEE;
+    border: 0;
+    height: 1px;
+    margin: 60px 0;
+    clear: both;
+}
+
+ul,
+ol {
+    margin: 0 0 15px 0;
+    padding: 0 0 0 15px;
+}
+
+ul {
+    list-style: disc;
+}
+
+ol {
+    list-style: decimal;
+}
+
+li > ul,
+li > ol {
+    margin-bottom: 0;
+    margin-left: 15px;
+}
+
+dt {
+    font-weight: bold;
+}
+
+dd {
+    margin: 0 15px 15px;
+}
+
+img {
+    height: auto; /* Make sure images are scaled correctly. */
+    max-width: 100%; /* Adhere to container width. */
+    vertical-align: middle;
+}
+
+figure {
+    margin: 15px 0; /* Extra wide images within figure tags don't overflow the content area. */
+}
+
+table {
+    margin: 0 0 15px;
+    width: 100%;
+}
+
+/*--------------------------------------------------------------
+3. Alignments
+--------------------------------------------------------------*/
+
+.alignleft {
+    display: inline;
+    float: left;
+    margin-right: 50px;
+}
+
+.alignright {
+    display: inline;
+    float: right;
+    margin-left: 50px;
+}
+
+.aligncenter {
+    clear: both;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+.text-alignleft {
+    text-align: left;
+}
+
+.text-alignright {
+    text-align: right;
+}
+
+.text-aligncenter {
+    text-align: center;
+
+}
+
+a:hover img,
+a:focus img,
+a:active img {
+    opacity: 0.8;
+    transition: box-shadow 0.2s ease-out 0s;
+}
+
+/*--------------------------------------------------------------
+4. Links
+--------------------------------------------------------------*/
+a {
+    color:#3a85eb;
+    text-decoration: inherit;
+}
+
+a:visited {
+    color: #3a85eb;
+}
+a:focus {
+    outline: none;
+}
+a:hover,
+a:focus,
+a:active {
+    color: #272727;
+}
+
+
+
+a:hover,
+a:active {
+    outline: 0;
+}

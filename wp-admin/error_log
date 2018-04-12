@@ -1,3 +1,102 @@
 [07-Feb-2018 00:12:30 UTC] WordPress database error Unknown column 'wp_' in 'field list' for query SELECT wp_
 [21-Feb-2018 01:19:45 UTC] WordPress database error Unknown column 'wp_' in 'field list' for query SELECT wp_
 [21-Feb-2018 01:27:54 UTC] WordPress database error Unknown column 'wp_' in 'field list' for query SELECT wp_
+[10-Apr-2018 19:39:51 UTC] PHP Warning:  Illegal string offset 'post_type' in /home/workforce/public_html/wp-content/plugins/so-widgets-bundle/base/inc/fields/container-base.class.php on line 115
+[10-Apr-2018 19:39:51 UTC] PHP Warning:  Illegal string offset 'post__in' in /home/workforce/public_html/wp-content/plugins/so-widgets-bundle/base/inc/fields/container-base.class.php on line 115
+[10-Apr-2018 19:39:51 UTC] PHP Warning:  Illegal string offset 'tax_query' in /home/workforce/public_html/wp-content/plugins/so-widgets-bundle/base/inc/fields/container-base.class.php on line 115
+[10-Apr-2018 19:39:51 UTC] PHP Warning:  Illegal string offset 'date_type' in /home/workforce/public_html/wp-content/plugins/so-widgets-bundle/base/inc/fields/container-base.class.php on line 115
+[10-Apr-2018 19:39:51 UTC] PHP Warning:  Illegal string offset 'date_query' in /home/workforce/public_html/wp-content/plugins/so-widgets-bundle/base/inc/fields/container-base.class.php on line 115
+[10-Apr-2018 19:39:51 UTC] PHP Warning:  Illegal string offset 'date_query_relative' in /home/workforce/public_html/wp-content/plugins/so-widgets-bundle/base/inc/fields/container-base.class.php on line 115
+[10-Apr-2018 19:39:51 UTC] PHP Warning:  Illegal string offset 'orderby' in /home/workforce/public_html/wp-content/plugins/so-widgets-bundle/base/inc/fields/container-base.class.php on line 115
+[10-Apr-2018 19:39:51 UTC] PHP Warning:  Illegal string offset 'order' in /home/workforce/public_html/wp-content/plugins/so-widgets-bundle/base/inc/fields/container-base.class.php on line 115
+[10-Apr-2018 19:39:51 UTC] PHP Warning:  Illegal string offset 'posts_per_page' in /home/workforce/public_html/wp-content/plugins/so-widgets-bundle/base/inc/fields/container-base.class.php on line 115
+[10-Apr-2018 19:39:51 UTC] PHP Warning:  Illegal string offset 'sticky' in /home/workforce/public_html/wp-content/plugins/so-widgets-bundle/base/inc/fields/container-base.class.php on line 115
+[10-Apr-2018 19:39:51 UTC] PHP Warning:  Illegal string offset 'additional' in /home/workforce/public_html/wp-content/plugins/so-widgets-bundle/base/inc/fields/container-base.class.php on line 115
+[10-Apr-2018 19:39:51 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/workforce/public_html/wp-content/plugins/so-widgets-bundle/base/inc/fields/posts.class.php on line 176
+[10-Apr-2018 19:48:26 UTC] PHP Warning:  Illegal string offset 'post_type' in /home/workforce/public_html/wp-content/plugins/so-widgets-bundle/base/inc/fields/container-base.class.php on line 115
+[10-Apr-2018 19:48:26 UTC] PHP Warning:  Illegal string offset 'post__in' in /home/workforce/public_html/wp-content/plugins/so-widgets-bundle/base/inc/fields/container-base.class.php on line 115
+[10-Apr-2018 19:48:26 UTC] PHP Warning:  Illegal string offset 'tax_query' in /home/workforce/public_html/wp-content/plugins/so-widgets-bundle/base/inc/fields/container-base.class.php on line 115
+[10-Apr-2018 19:48:26 UTC] PHP Warning:  Illegal string offset 'date_type' in /home/workforce/public_html/wp-content/plugins/so-widgets-bundle/base/inc/fields/container-base.class.php on line 115
+[10-Apr-2018 19:48:26 UTC] PHP Warning:  Illegal string offset 'date_query' in /home/workforce/public_html/wp-content/plugins/so-widgets-bundle/base/inc/fields/container-base.class.php on line 115
+[10-Apr-2018 19:48:26 UTC] PHP Warning:  Illegal string offset 'date_query_relative' in /home/workforce/public_html/wp-content/plugins/so-widgets-bundle/base/inc/fields/container-base.class.php on line 115
+[10-Apr-2018 19:48:26 UTC] PHP Warning:  Illegal string offset 'orderby' in /home/workforce/public_html/wp-content/plugins/so-widgets-bundle/base/inc/fields/container-base.class.php on line 115
+[10-Apr-2018 19:48:26 UTC] PHP Warning:  Illegal string offset 'order' in /home/workforce/public_html/wp-content/plugins/so-widgets-bundle/base/inc/fields/container-base.class.php on line 115
+[10-Apr-2018 19:48:26 UTC] PHP Warning:  Illegal string offset 'posts_per_page' in /home/workforce/public_html/wp-content/plugins/so-widgets-bundle/base/inc/fields/container-base.class.php on line 115
+[10-Apr-2018 19:48:26 UTC] PHP Warning:  Illegal string offset 'sticky' in /home/workforce/public_html/wp-content/plugins/so-widgets-bundle/base/inc/fields/container-base.class.php on line 115
+[10-Apr-2018 19:48:26 UTC] PHP Warning:  Illegal string offset 'additional' in /home/workforce/public_html/wp-content/plugins/so-widgets-bundle/base/inc/fields/container-base.class.php on line 115
+[10-Apr-2018 19:48:26 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/workforce/public_html/wp-content/plugins/so-widgets-bundle/base/inc/fields/posts.class.php on line 176
+[11-Apr-2018 04:00:17 UTC] PHP Warning:  Illegal string offset 'post_type' in /home/workforce/public_html/wp-content/plugins/so-widgets-bundle/base/inc/fields/container-base.class.php on line 115
+[11-Apr-2018 04:00:17 UTC] PHP Warning:  Illegal string offset 'post__in' in /home/workforce/public_html/wp-content/plugins/so-widgets-bundle/base/inc/fields/container-base.class.php on line 115
+[11-Apr-2018 04:00:17 UTC] PHP Warning:  Illegal string offset 'tax_query' in /home/workforce/public_html/wp-content/plugins/so-widgets-bundle/base/inc/fields/container-base.class.php on line 115
+[11-Apr-2018 04:00:17 UTC] PHP Warning:  Illegal string offset 'date_type' in /home/workforce/public_html/wp-content/plugins/so-widgets-bundle/base/inc/fields/container-base.class.php on line 115
+[11-Apr-2018 04:00:17 UTC] PHP Warning:  Illegal string offset 'date_query' in /home/workforce/public_html/wp-content/plugins/so-widgets-bundle/base/inc/fields/container-base.class.php on line 115
+[11-Apr-2018 04:00:17 UTC] PHP Warning:  Illegal string offset 'date_query_relative' in /home/workforce/public_html/wp-content/plugins/so-widgets-bundle/base/inc/fields/container-base.class.php on line 115
+[11-Apr-2018 04:00:17 UTC] PHP Warning:  Illegal string offset 'orderby' in /home/workforce/public_html/wp-content/plugins/so-widgets-bundle/base/inc/fields/container-base.class.php on line 115
+[11-Apr-2018 04:00:17 UTC] PHP Warning:  Illegal string offset 'order' in /home/workforce/public_html/wp-content/plugins/so-widgets-bundle/base/inc/fields/container-base.class.php on line 115
+[11-Apr-2018 04:00:17 UTC] PHP Warning:  Illegal string offset 'posts_per_page' in /home/workforce/public_html/wp-content/plugins/so-widgets-bundle/base/inc/fields/container-base.class.php on line 115
+[11-Apr-2018 04:00:17 UTC] PHP Warning:  Illegal string offset 'sticky' in /home/workforce/public_html/wp-content/plugins/so-widgets-bundle/base/inc/fields/container-base.class.php on line 115
+[11-Apr-2018 04:00:17 UTC] PHP Warning:  Illegal string offset 'additional' in /home/workforce/public_html/wp-content/plugins/so-widgets-bundle/base/inc/fields/container-base.class.php on line 115
+[11-Apr-2018 04:00:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/workforce/public_html/wp-content/plugins/so-widgets-bundle/base/inc/fields/posts.class.php on line 176
+[11-Apr-2018 04:30:03 UTC] PHP Warning:  Illegal string offset 'post_type' in /home/workforce/public_html/wp-content/plugins/so-widgets-bundle/base/inc/fields/container-base.class.php on line 115
+[11-Apr-2018 04:30:03 UTC] PHP Warning:  Illegal string offset 'post__in' in /home/workforce/public_html/wp-content/plugins/so-widgets-bundle/base/inc/fields/container-base.class.php on line 115
+[11-Apr-2018 04:30:03 UTC] PHP Warning:  Illegal string offset 'tax_query' in /home/workforce/public_html/wp-content/plugins/so-widgets-bundle/base/inc/fields/container-base.class.php on line 115
+[11-Apr-2018 04:30:03 UTC] PHP Warning:  Illegal string offset 'date_type' in /home/workforce/public_html/wp-content/plugins/so-widgets-bundle/base/inc/fields/container-base.class.php on line 115
+[11-Apr-2018 04:30:03 UTC] PHP Warning:  Illegal string offset 'date_query' in /home/workforce/public_html/wp-content/plugins/so-widgets-bundle/base/inc/fields/container-base.class.php on line 115
+[11-Apr-2018 04:30:03 UTC] PHP Warning:  Illegal string offset 'date_query_relative' in /home/workforce/public_html/wp-content/plugins/so-widgets-bundle/base/inc/fields/container-base.class.php on line 115
+[11-Apr-2018 04:30:03 UTC] PHP Warning:  Illegal string offset 'orderby' in /home/workforce/public_html/wp-content/plugins/so-widgets-bundle/base/inc/fields/container-base.class.php on line 115
+[11-Apr-2018 04:30:03 UTC] PHP Warning:  Illegal string offset 'order' in /home/workforce/public_html/wp-content/plugins/so-widgets-bundle/base/inc/fields/container-base.class.php on line 115
+[11-Apr-2018 04:30:03 UTC] PHP Warning:  Illegal string offset 'posts_per_page' in /home/workforce/public_html/wp-content/plugins/so-widgets-bundle/base/inc/fields/container-base.class.php on line 115
+[11-Apr-2018 04:30:03 UTC] PHP Warning:  Illegal string offset 'sticky' in /home/workforce/public_html/wp-content/plugins/so-widgets-bundle/base/inc/fields/container-base.class.php on line 115
+[11-Apr-2018 04:30:03 UTC] PHP Warning:  Illegal string offset 'additional' in /home/workforce/public_html/wp-content/plugins/so-widgets-bundle/base/inc/fields/container-base.class.php on line 115
+[11-Apr-2018 04:30:03 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/workforce/public_html/wp-content/plugins/so-widgets-bundle/base/inc/fields/posts.class.php on line 176
+[12-Apr-2018 04:14:52 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 71617 bytes) in /home/workforce/public_html/wp-includes/wp-db.php on line 1889
+[12-Apr-2018 04:15:07 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 71617 bytes) in /home/workforce/public_html/wp-includes/wp-db.php on line 1889
+[12-Apr-2018 04:15:23 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 71617 bytes) in /home/workforce/public_html/wp-includes/wp-db.php on line 1889
+[12-Apr-2018 04:15:37 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 71617 bytes) in /home/workforce/public_html/wp-includes/wp-db.php on line 1889
+[12-Apr-2018 04:15:52 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 71617 bytes) in /home/workforce/public_html/wp-includes/wp-db.php on line 1889
+[12-Apr-2018 04:16:07 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 71617 bytes) in /home/workforce/public_html/wp-includes/wp-db.php on line 1889
+[12-Apr-2018 04:16:23 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 71617 bytes) in /home/workforce/public_html/wp-includes/wp-db.php on line 1889
+[12-Apr-2018 04:16:37 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 71617 bytes) in /home/workforce/public_html/wp-includes/wp-db.php on line 1889
+[12-Apr-2018 04:16:52 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 71617 bytes) in /home/workforce/public_html/wp-includes/wp-db.php on line 1889
+[12-Apr-2018 04:17:07 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 71617 bytes) in /home/workforce/public_html/wp-includes/wp-db.php on line 1889
+[12-Apr-2018 04:17:24 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 71617 bytes) in /home/workforce/public_html/wp-includes/wp-db.php on line 1889
+[12-Apr-2018 04:17:38 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 71617 bytes) in /home/workforce/public_html/wp-includes/wp-db.php on line 1889
+[12-Apr-2018 04:17:53 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 71617 bytes) in /home/workforce/public_html/wp-includes/wp-db.php on line 1889
+[12-Apr-2018 04:18:08 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 71617 bytes) in /home/workforce/public_html/wp-includes/wp-db.php on line 1889
+[12-Apr-2018 04:18:28 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 71617 bytes) in /home/workforce/public_html/wp-includes/wp-db.php on line 1889
+[12-Apr-2018 04:18:41 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 71617 bytes) in /home/workforce/public_html/wp-includes/wp-db.php on line 1889
+[12-Apr-2018 04:21:01 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 71503 bytes) in /home/workforce/public_html/wp-includes/wp-db.php on line 1889
+[12-Apr-2018 04:23:46 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 71534 bytes) in /home/workforce/public_html/wp-includes/wp-db.php on line 1889
+[12-Apr-2018 04:24:02 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 71559 bytes) in /home/workforce/public_html/wp-includes/wp-db.php on line 1889
+[12-Apr-2018 04:24:16 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 71534 bytes) in /home/workforce/public_html/wp-includes/wp-db.php on line 1889
+[12-Apr-2018 04:24:31 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 71534 bytes) in /home/workforce/public_html/wp-includes/wp-db.php on line 1889
+[12-Apr-2018 04:24:46 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 71534 bytes) in /home/workforce/public_html/wp-includes/wp-db.php on line 1889
+[12-Apr-2018 04:25:01 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 71534 bytes) in /home/workforce/public_html/wp-includes/wp-db.php on line 1889
+[12-Apr-2018 04:25:18 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 71559 bytes) in /home/workforce/public_html/wp-includes/wp-db.php on line 1889
+[12-Apr-2018 04:25:31 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 71534 bytes) in /home/workforce/public_html/wp-includes/wp-db.php on line 1889
+[12-Apr-2018 04:25:47 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 71534 bytes) in /home/workforce/public_html/wp-includes/wp-db.php on line 1889
+[12-Apr-2018 04:26:02 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 71534 bytes) in /home/workforce/public_html/wp-includes/wp-db.php on line 1889
+[12-Apr-2018 04:26:18 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 71559 bytes) in /home/workforce/public_html/wp-includes/wp-db.php on line 1889
+[12-Apr-2018 04:26:32 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 71534 bytes) in /home/workforce/public_html/wp-includes/wp-db.php on line 1889
+[12-Apr-2018 04:26:48 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 71534 bytes) in /home/workforce/public_html/wp-includes/wp-db.php on line 1889
+[12-Apr-2018 04:27:09 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 71534 bytes) in /home/workforce/public_html/wp-includes/wp-db.php on line 1889
+[12-Apr-2018 04:27:25 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 71559 bytes) in /home/workforce/public_html/wp-includes/wp-db.php on line 1889
+[12-Apr-2018 04:27:39 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 71534 bytes) in /home/workforce/public_html/wp-includes/wp-db.php on line 1889
+[12-Apr-2018 04:27:54 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 71534 bytes) in /home/workforce/public_html/wp-includes/wp-db.php on line 1889
+[12-Apr-2018 04:28:09 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 71534 bytes) in /home/workforce/public_html/wp-includes/wp-db.php on line 1889
+[12-Apr-2018 04:28:25 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 71559 bytes) in /home/workforce/public_html/wp-includes/wp-db.php on line 1889
+[12-Apr-2018 04:28:40 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 71534 bytes) in /home/workforce/public_html/wp-includes/wp-db.php on line 1889
+[12-Apr-2018 04:28:55 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 71534 bytes) in /home/workforce/public_html/wp-includes/wp-db.php on line 1889
+[12-Apr-2018 04:29:10 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 71534 bytes) in /home/workforce/public_html/wp-includes/wp-db.php on line 1889
+[12-Apr-2018 04:29:26 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 71534 bytes) in /home/workforce/public_html/wp-includes/wp-db.php on line 1889
+[12-Apr-2018 04:31:40 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 71503 bytes) in /home/workforce/public_html/wp-includes/wp-db.php on line 1889
+[12-Apr-2018 04:31:56 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 71559 bytes) in /home/workforce/public_html/wp-includes/wp-db.php on line 1889
+[12-Apr-2018 04:32:10 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 71503 bytes) in /home/workforce/public_html/wp-includes/wp-db.php on line 1889
+[12-Apr-2018 04:32:25 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 71503 bytes) in /home/workforce/public_html/wp-includes/wp-db.php on line 1889
+[12-Apr-2018 05:01:36 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 72597 bytes) in /home/workforce/public_html/wp-includes/wp-db.php on line 1889
+[12-Apr-2018 05:01:51 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 72597 bytes) in /home/workforce/public_html/wp-includes/wp-db.php on line 1889
+[12-Apr-2018 05:02:06 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 72597 bytes) in /home/workforce/public_html/wp-includes/wp-db.php on line 1889
+[12-Apr-2018 05:32:03 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 72586 bytes) in /home/workforce/public_html/wp-includes/wp-db.php on line 1889
+[12-Apr-2018 05:32:18 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 72586 bytes) in /home/workforce/public_html/wp-includes/wp-db.php on line 1889
+[12-Apr-2018 05:32:34 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 72586 bytes) in /home/workforce/public_html/wp-includes/wp-db.php on line 1889
+[12-Apr-2018 05:32:48 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 72586 bytes) in /home/workforce/public_html/wp-includes/wp-db.php on line 1889
